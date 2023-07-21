@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Choose Field"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="351dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="52dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="MissingConstraints">
+
+        <GridLayout
+            android:layout_width="351dp"
+            android:layout_height="192dp"
+            android:layout_gravity="center"
+            android:background="@android:color/white"
+            android:columnCount="4"
+            android:foregroundTint="@color/white"
+            android:rowCount="3">
+
+            <Button
+                android:id="@+id/field1"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="88dp"
+                android:layout_height="64dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/field2"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="88dp"
+                android:layout_height="64dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/field3"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="88dp"
+                android:layout_height="64dp"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/field4"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="88dp"
+                android:layout_height="64dp"
+                android:layout_row="0"
+                android:layout_column="3"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/field5"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="88dp"
+                android:layout_height="64dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/field6"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="88dp"
+                android:layout_height="64dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/field7"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="88dp"
+                android:layout_height="64dp"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/field8"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="88dp"
+                android:layout_height="64dp"
+                android:layout_row="1"
+                android:layout_column="3"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/field9"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="88dp"
+                android:layout_height="64dp"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:background="@color/white"
+                android:textColorLink="@color/white"
+                app:rippleColor="@color/white" />
+
+            <Button
+                android:id="@+id/field10"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="88dp"
+                android:layout_height="64dp"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/field11"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="88dp"
+                android:layout_height="64dp"
+                android:layout_row="2"
+                android:layout_column="2"
+                android:background="@color/white"
+                android:textColorLink="@color/white" />
+
+            <Button
+                android:id="@+id/field12"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="88dp"
+                android:layout_height="64dp"
+                android:layout_row="2"
+                android:layout_column="3"
+                android:background="@color/white"
+                app:strokeColor="@color/white" />
+
+
+        </GridLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
